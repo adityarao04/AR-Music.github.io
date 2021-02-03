@@ -1,0 +1,1054 @@
+:root {
+    --color: white;
+    --colorOnHov: rgb(30, 215, 221);
+}
+
+body {
+    margin: 0px;
+    background-color: #0e0718;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* TOP nav bar */
+
+#navigation-bar {
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    display: inline-block;
+    opacity: 0.9;
+    border: none;
+    z-index: 200;
+    background-color: #171121;
+}
+
+#logo {
+    display: inline-block;
+    width: 8%;
+    height: 91%;
+    position: relative;
+    left: 1%;
+    top: 5%;
+    border: none;
+    outline: none;
+    border-radius: 10%;
+    box-shadow: 0px 0px 3px 2px;
+}
+
+#logo a {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    border-radius: inherit;
+}
+
+#logo a img {
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Search box(nav) */
+
+#search {
+    display: inline-block;
+    position: relative;
+    left: 3%;
+    height: 70%;
+    width: 27%;
+    margin: 0px 3px 7px 10px;
+    border: none;
+    outline: none;
+    border-radius: 21px;
+    background-color: rgb(75, 72, 72);
+}
+
+#search-logo {
+    display: inline-block;
+    position: absolute;
+    top: 7%;
+    /* left: 5%; */
+    margin: 0px;
+    height: 91%;
+    width: 11%;
+    border: none;
+    outline: none;
+}
+
+#search-logo a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+#search-logo a i {
+    position: relative;
+    font-size: 1.2rem;
+    padding: 0px;
+    color: var(--color);
+    position: relative;
+    top: 20%;
+    left: 20%;
+    transition: 0.3s ease-in-out;
+}
+
+#search-logo a i:hover {
+    color: var( --colorOnHov);
+}
+
+input {
+    display: inline-block;
+    font-size: .9rem;
+    height: 80%;
+    width: 70%;
+    position: absolute;
+    margin: 5px;
+    top: -7%;
+    left: 10%;
+    border: none transparent;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#mic-logo {
+    display: inline-block;
+    position: absolute;
+    top: 1%;
+    right: 0%;
+    /* left: 5%; */
+    margin: 0px;
+    height: 91%;
+    width: 9%;
+    border: none;
+    outline: none;
+}
+
+#mic-logo a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+#mic-logo a i {
+    position: relative;
+    font-size: 1.2rem;
+    padding: 0px;
+    color: var(--color);
+    top: 20%;
+    left: 20%;
+    transition: 0.3s ease-in-out;
+}
+
+#mic-logo a i:hover {
+    color: var( --colorOnHov);
+    transition: 0.3s ease-in-out;
+}
+
+.navigation-container {
+    display: inline-block;
+    position: relative;
+    left: 7%;
+    height: 100%;
+    width: 36%;
+    border: none;
+    outline: none;
+}
+
+.horizontal-list {
+    display: inline-block;
+    position: relative;
+    left: 0%;
+    margin: 0%;
+    height: 90%;
+    width: 91%;
+    border: none;
+    outline: none;
+    list-style: none;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    height: 100%;
+    width: 26%;
+    border: none;
+    outline: none;
+}
+
+.horizontal-list li a {
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    width: 23%;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 3;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color);
+    transition: 0.3s ease-in-out;
+}
+
+.horizontal-list li a:hover {
+    color: var( --colorOnHov);
+    /* background-color: black; */
+}
+
+
+/* Profile  */
+
+#my-dp {
+    width: 3.24%;
+    height: 76%;
+    position: relative;
+    top: 7%;
+    right: 1%;
+    border-radius: 50%;
+    float: right;
+    border: none;
+    outline: none;
+}
+
+#my-dp>a {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    position: absolute;
+    background-image: url("images/MyDP.jpg");
+    background-size: contain;
+}
+
+
+/* Main */
+
+#content {
+    position: absolute;
+    top: 8%;
+    width: 100%;
+    margin-top: 1%;
+}
+
+#music-main {
+    width: 65%;
+    display: inline-block;
+}
+
+#header-container {
+    position: relative;
+    top: 20%;
+    width: 100%;
+    height: 52vh;
+    /* border: 2px solid black; */
+    overflow: hidden;
+}
+
+.carousal {
+    display: inline-block;
+    height: 199px;
+    width: 275px;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    position: relative;
+    top: 18%;
+    left: 11%;
+}
+
+#image-one {
+    background-image: url("images/top-hindi-songs-90.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: 0;
+    transition: all 0.4s ease-in-out;
+    transform: skewY(-10deg) translateY(-38px);
+}
+
+#image-one:hover {
+    transform: translateX(150px);
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px 0px 6px 4px rgba(252, 252, 252, 0.842);
+    height: 70%;
+    width: 53%;
+    z-index: 100;
+    opacity: 1;
+}
+
+#image-two {
+    height: 70%;
+    width: 53%;
+    background-image: url("images/best-most-popular-dua-lipa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 3;
+    opacity: 1;
+    margin: 0px -206px 0px -206px;
+    transition: all 0.4s ease-in-out;
+}
+
+#image-two:hover {
+    transform: scale(1.1);
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px 0px 6px 4px rgba(252, 252, 252, 0.842);
+    opacity: 1;
+}
+
+#image-three {
+    background-image: url("images/most-viewed-rap.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    z-index: 0;
+    transition: all 0.4s ease-in-out;
+    transform: skewY(10deg) translateY(-38px);
+}
+
+#image-three:hover {
+    transform: translateX(-150px);
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px 0px 6px 4px rgba(252, 252, 252, 0.842);
+    height: 70%;
+    width: 53%;
+    z-index: 100;
+    opacity: 1;
+}
+
+
+/* Latest Release */
+
+#latest-release {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    /* border: 2px solid black; */
+}
+
+#latest-release-head {
+    position: relative;
+    /* display: inline-block; */
+    font-size: 1.1rem;
+    width: 20%;
+}
+
+#latest-release-head a {
+    display: inline-block;
+    position: relative;
+    left: 0%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--color);
+}
+
+#latest-release-music-container {
+    height: 78%;
+    width: 100%;
+    /* border: 2px solid red; */
+    position: relative;
+    left: 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.latest-release-music {
+    position: relative;
+    height: 52%;
+    width: 50%;
+    /* border: 2px solid red */
+}
+
+.image-container-latest {
+    height: 39%;
+    width: 15%;
+    display: inline-block;
+    position: relative;
+    left: 2%;
+    top: 21%;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+}
+
+.image-container-latest img {
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+.info-latest-music {
+    display: inline-block;
+    height: 60%;
+    width: 46%;
+    position: relative;
+    top: 0%;
+    left: 2%;
+    /* right: -2%; */
+    /* border: 2px solid red; */
+}
+
+.name-song-artist {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    position: relative;
+    left: 0%;
+    top: 29%;
+}
+
+.song-name {
+    width: 97%;
+    height: 37%;
+    /* border: 2px solid black; */
+    text-align: left;
+    /* line-height: 2; */
+}
+
+.song-name a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: var(--color);
+    font-size: 1rem;
+    position: relative;
+}
+
+.song-name a:hover {
+    color: var(--colorOnHov);
+}
+
+.artist-name {
+    height: 33%;
+    width: 62%;
+    /* border: 2px solid red; */
+    font-size: 0.8rem;
+    color: whitesmoke;
+    position: relative;
+    top: 0%;
+}
+
+
+/* Favourite Artists */
+
+#latest-text {
+    position: relative;
+    left: 10%;
+    display: inline-block;
+    height: 20%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#latest-text a {
+    text-decoration: none;
+    /* letter-spacing: 2px; */
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: .35s ease-in-out;
+    color: white;
+}
+
+.artist-img img {
+    width: 150px;
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.artist-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.artist-img p {
+    color: #fff;
+    margin-left: 70px;
+    font-weight: 550;
+}
+
+.Fav-art {
+    margin-top: 20px;
+}
+
+.artist-details {
+    position: relative;
+    border-radius: 50%;
+}
+
+.artist-details a {
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    color: white;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    width: 40px;
+    height: 38px;
+    background-color: rgba(179, 179, 179, 0.8);
+}
+
+.artist-details a i {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.play-btn {
+    display: none;
+    transition: 0.4s ease-in-out;
+}
+
+.artist-details:hover .play-btn {
+    display: inline-block;
+    opacity: 1;
+}
+
+.play-btn:hover {
+    background-color: rgba(94, 94, 94, 0.89)
+}
+
+
+/* Types of Genre */
+
+#genre-container {
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.genre-type {
+    width: 270px;
+    position: relative;
+    height: 150px;
+    /* border: 2px solid red; */
+    transition: 0.4s ease-in-out;
+}
+
+.genre-type:hover {
+    transform: scale(1.05);
+}
+
+.genre-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    border-radius: 7px;
+}
+
+.genre-name {
+    position: absolute;
+    top: 0%;
+    display: none;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.genre-name a {
+    position: absolute;
+    /* top: 16%; */
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 7;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: .35s ease-in-out;
+    color: var(--colorOnHov)
+}
+
+.genre-type:hover .genre-name {
+    display: inline-block;
+}
+
+
+/* Best of */
+
+.best-of-container {
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 3%;
+}
+
+.best-of-heading {
+    display: inline-block;
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid; */
+    /* margin: 0px 0px 3px 10% */
+    margin-bottom: 3%;
+}
+
+.best-of-heading a {
+    display: inline-block;
+    height: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: .35s ease-in-out;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 4%;
+}
+
+.best-of {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.best-songs {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid red; */
+    transition: 0.1s ease-out;
+    border-radius: 7px;
+    color: var(--color);
+}
+
+.best-songs:hover {
+    background-color: rgb(75, 72, 72);
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px 0px;
+    color: black;
+}
+
+.best-song-img {
+    position: relative;
+    top: 5%;
+    width: 80%;
+    height: 65%;
+    /* border: 1px solid black; */
+}
+
+.best-song-img img {
+    position: relative;
+    left: 13%;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+}
+
+.best-song-name-artist {
+    height: 20%;
+    width: 100%;
+    position: relative;
+    bottom: 0%;
+    left: 13%;
+}
+
+.name {
+    font-size: 1rem;
+    /* color: var(--color); */
+    height: 5%;
+}
+
+.artist {
+    font-size: 0.8rem;
+    /* color: var(--color); */
+}
+
+.blank {
+    width: 100%;
+    height: 100px;
+}
+
+
+/* Aside section */
+
+aside {
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    width: 27%;
+    top: 1%;
+    /* background-color: #191828; */
+    vertical-align: top;
+}
+
+.side-text {
+    /* font-family: monospace; */
+    font-size: 1.5rem;
+    margin-left: 1.2%;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.q-text {
+    margin-top: 5%;
+}
+
+
+/* Song List under Q Section*/
+
+.Song-list {
+    margin-top: 25px;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+
+.Song-list:hover {
+    background-color: #2c2b31;
+    border-radius: 7px;
+}
+
+.Song-list img {
+    width: 59px;
+    height: 54px;
+    margin-left: 34px;
+    -webkit-box-shadow: 1px 3px 10px -7px rgba(255, 255, 255, 0.89);
+    box-shadow: 1px 3px 10px -7px rgba(255, 255, 255, 0.89);
+    border-radius: 10px;
+}
+
+.sno {
+    color: lightgrey;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+.song-name-aside {
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    width: 300px;
+    font-weight: 600;
+}
+
+.Artist {
+    color: #fff;
+    position: absolute;
+    top: 35px;
+    left: 110px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    width: 200px;
+}
+
+.heart i {
+    color: #fff;
+}
+
+.heart {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+/* bottom Music player */
+
+.music-player-container {
+    position: fixed;
+    bottom: 0%;
+    display: inline-block;
+    width: 100%;
+    height: 8%;
+    /* border: 2px solid; */
+    background-color: rgb(75, 72, 72);
+    border-radius: 38px;
+    opacity: 0.8;
+    transition: all 0.4s ease-in;
+}
+
+.music-player-container:hover {
+    opacity: 1;
+    box-shadow: 0px 0px 2px 4px;
+}
+
+.music-player-img-con {
+    display: inline-block;
+    position: relative;
+    top: 13%;
+    left: 4%;
+    width: 4%;
+    height: 74%;
+    /* border: 2px solid; */
+    border-radius: 9px;
+    box-shadow: 1px 3px 10px -7px rgb(255 255 255 / 89%);
+}
+
+.music-player-img-con img {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    border-radius: 9px;
+}
+
+.music-player-info {
+    display: inline-block;
+    position: relative;
+    left: 4%;
+    /* border: 2px solid black; */
+    color: var(--color);
+}
+
+.music-play-name {
+    font-size: 1rem;
+}
+
+.music-play-artist {
+    font-size: 0.8rem;
+}
+
+.music-player-console {
+    display: inline-block;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    height: 80%;
+    width: 58%;
+    /* border: 2px solid; */
+}
+
+.controls {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 4px
+}
+
+#range-player {
+    width: 40%;
+    position: relative;
+    left: 25%;
+    top: 1%;
+}
+
+#range-player::before {
+    content: '1:40';
+    color: var(--color);
+    font-size: 0.8rem;
+    position: relative;
+    top: 10px;
+    right: 31px;
+}
+
+#range-player::after {
+    content: '3:26';
+    color: var(--color);
+    font-size: 0.8rem;
+    position: relative;
+    top: 10px;
+    right: -31px;
+}
+
+audio {
+    height: 80%;
+    background-color: transparent;
+}
+
+.con-align {
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    left: 12%;
+    top: -25%;
+    color: var(--color);
+    transition: 0.3s ease-in-out;
+    margin: 9px;
+}
+
+.con-align:hover {
+    color: var(--colorOnHov);
+}
+
+.heading {
+    color: white;
+}
+
+
+/* Margin Left 10% */
+
+.margn {
+    margin: 2px;
+}
+
+.margin-L-10per {
+    margin-left: 10%;
+}
+
+.sound-bar {
+    transform: rotate(-90deg);
+    color: rgb(11, 91, 196);
+}
+
+
+/* Responsive design */
+
+@media screen and (max-width:768px) {
+    .navigation-container {
+        width: 84%;
+        position: absolute;
+        left: 10%;
+    }
+    .horizontal-list {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    #search {
+        display: none;
+    }
+    #my-dp {
+        display: none;
+    }
+    #logo {
+        width: 20%;
+        height: 93%;
+    }
+    aside {
+        margin-left: 0px;
+        display: block;
+        width: 100%;
+        position: relative;
+        bottom: 100px;
+    }
+    .main-content {
+        width: 100%;
+    }
+    .music-disp {
+        width: 100%;
+    }
+    .Song-list {
+        position: relative;
+        left: 0%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #music-main {
+        width: 100%;
+    }
+    #header-container {
+        display: none;
+    }
+    #latest-release {
+        position: relative;
+        height: 78vh;
+        /* border: 2px solid; */
+        width: 100%;
+        overflow: hidden;
+    }
+    #latest-release-head {
+        font-size: 0.7rem;
+        position: relative;
+        top: 3%;
+        width: 100%;
+    }
+    #latest-release-music-container {
+        position: relative;
+        top: 4%;
+        left: 0%;
+        height: 91%;
+    }
+    .latest-release-music {
+        width: 64%;
+        height: 98px;
+        position: relative;
+        left: -11%;
+        /* border: 2px solid; */
+    }
+    .name-song-artist {
+        position: relative;
+        top: 32%;
+        width: 100%;
+    }
+    .song-name a {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+    .artist-name {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .image-container-latest {
+        width: 15%;
+        height: 43%;
+    }
+    .info-latest-music {
+        height: 47%;
+        position: relative;
+        top: 5%;
+        width: 83%;
+    }
+    .genre-type {
+        width: 24%;
+        height: 105px;
+    }
+    .best-of-container {
+        margin-top: 10px;
+        width: 106%;
+    }
+    .best-song-img {
+        width: 65%;
+        height: 45%;
+        position: relative;
+        left: 9%;
+    }
+    .name {
+        height: 28px;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    .music-player-img-con {
+        width: 12%;
+    }
+    .music-player-console {
+        width: 35%;
+        position: absolute;
+        left: 50%;
+        right: 8%;
+    }
+    .back-btn {
+        position: relative;
+        top: 10%;
+    }
+    .play-btn-con {
+        position: relative;
+        top: 10%;
+    }
+    .forward-btn {
+        position: relative;
+        top: 10%;
+    }
+    #range-player {
+        display: none;
+    }
+}
